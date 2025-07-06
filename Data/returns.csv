@@ -1,0 +1,151 @@
+return_id,order_id,return_date,reason
+1,132,2025-03-26,Wrong item delivered
+2,204,2025-06-15,Late delivery
+3,51,2025-05-11,Quality not as expected
+4,586,2025-06-27,Late delivery
+5,139,2025-02-16,Damaged item
+6,633,2025-05-25,Size issue
+7,329,2025-02-12,Size issue
+8,462,2024-10-17,Wrong item delivered
+9,925,2025-03-03,Size issue
+10,480,2025-06-30,Wrong item delivered
+11,196,2025-07-02,Wrong item delivered
+12,222,2025-03-06,Wrong item delivered
+13,210,2025-06-18,Late delivery
+14,379,2024-09-25,Wrong item delivered
+15,157,2025-06-30,Late delivery
+16,328,2025-02-22,Didn’t like the product
+17,762,2025-06-30,Wrong item delivered
+18,321,2025-06-03,Quality not as expected
+19,275,2025-05-12,Damaged item
+20,418,2025-03-04,Wrong item delivered
+21,373,2024-11-06,Quality not as expected
+22,300,2024-12-28,Wrong item delivered
+23,230,2025-04-02,Size issue
+24,897,2025-04-11,Wrong item delivered
+25,595,2025-05-24,Quality not as expected
+26,984,2024-12-05,Didn’t like the product
+27,737,2025-03-29,Quality not as expected
+28,86,2025-06-22,Late delivery
+29,883,2025-05-17,Damaged item
+30,8,2024-08-15,Late delivery
+31,723,2025-05-03,Size issue
+32,44,2024-10-02,Damaged item
+33,567,2025-03-27,Late delivery
+34,318,2024-12-12,Wrong item delivered
+35,875,2025-06-11,Quality not as expected
+36,744,2025-05-18,Quality not as expected
+37,354,2025-04-22,Damaged item
+38,146,2025-06-19,Size issue
+39,347,2025-03-18,Quality not as expected
+40,591,2025-03-20,Size issue
+41,772,2025-01-20,Late delivery
+42,337,2025-06-08,Didn’t like the product
+43,634,2025-03-07,Didn’t like the product
+44,311,2025-06-29,Damaged item
+45,694,2025-06-21,Size issue
+46,692,2025-05-14,Size issue
+47,339,2025-06-22,Size issue
+48,902,2025-05-20,Late delivery
+49,319,2025-06-29,Size issue
+50,353,2025-05-28,Wrong item delivered
+51,162,2025-06-09,Damaged item
+52,543,2025-07-01,Wrong item delivered
+53,787,2025-05-25,Late delivery
+54,918,2025-02-15,Size issue
+55,388,2025-05-07,Wrong item delivered
+56,197,2025-06-28,Size issue
+57,649,2025-03-27,Late delivery
+58,168,2025-05-10,Damaged item
+59,598,2024-11-27,Size issue
+60,393,2024-11-19,Late delivery
+61,804,2025-04-15,Damaged item
+62,537,2025-04-27,Late delivery
+63,173,2024-12-15,Quality not as expected
+64,831,2025-05-19,Size issue
+65,183,2025-04-06,Didn’t like the product
+66,703,2025-06-20,Late delivery
+67,785,2025-04-02,Size issue
+68,614,2025-03-06,Quality not as expected
+69,966,2025-04-26,Late delivery
+70,172,2025-05-10,Didn’t like the product
+71,346,2024-12-13,Wrong item delivered
+72,823,2025-04-04,Quality not as expected
+73,878,2025-05-14,Damaged item
+74,148,2025-01-19,Damaged item
+75,549,2025-06-03,Damaged item
+76,643,2025-06-01,Quality not as expected
+77,972,2025-06-09,Didn’t like the product
+78,935,2025-02-28,Quality not as expected
+79,185,2024-12-03,Quality not as expected
+80,608,2025-02-01,Damaged item
+81,438,2024-10-29,Size issue
+82,267,2025-05-16,Size issue
+83,809,2025-03-02,Quality not as expected
+84,448,2025-03-29,Didn’t like the product
+85,714,2025-06-27,Quality not as expected
+86,115,2025-05-16,Quality not as expected
+87,657,2025-05-04,Wrong item delivered
+88,986,2025-06-03,Damaged item
+89,427,2025-02-22,Didn’t like the product
+90,6,2025-06-13,Damaged item
+91,641,2025-05-15,Wrong item delivered
+92,987,2025-06-17,Quality not as expected
+93,933,2025-05-25,Didn’t like the product
+94,42,2025-03-27,Late delivery
+95,135,2025-06-17,Size issue
+96,939,2025-02-07,Size issue
+97,815,2025-06-03,Late delivery
+98,995,2025-04-06,Quality not as expected
+99,806,2024-10-15,Size issue
+100,559,2025-02-25,Quality not as expected
+101,876,2025-05-11,Didn’t like the product
+102,934,2025-06-23,Quality not as expected
+103,862,2025-06-13,Quality not as expected
+104,869,2025-04-21,Didn’t like the product
+105,793,2025-06-03,Damaged item
+106,929,2025-01-19,Damaged item
+107,247,2025-01-07,Size issue
+108,765,2025-03-05,Size issue
+109,940,2025-05-28,Size issue
+110,49,2025-05-21,Didn’t like the product
+111,829,2025-04-05,Quality not as expected
+112,617,2024-11-03,Wrong item delivered
+113,317,2024-10-07,Late delivery
+114,447,2025-01-22,Didn’t like the product
+115,314,2025-05-01,Quality not as expected
+116,417,2025-05-23,Quality not as expected
+117,572,2025-06-07,Wrong item delivered
+118,922,2025-03-16,Wrong item delivered
+119,104,2025-04-06,Size issue
+120,542,2025-06-07,Damaged item
+121,892,2025-05-01,Wrong item delivered
+122,661,2024-11-27,Damaged item
+123,36,2025-06-26,Size issue
+124,870,2025-06-27,Size issue
+125,917,2024-12-12,Quality not as expected
+126,103,2025-05-20,Didn’t like the product
+127,792,2025-05-23,Damaged item
+128,53,2025-01-20,Damaged item
+129,201,2025-04-09,Damaged item
+130,5,2025-06-25,Size issue
+131,954,2025-06-14,Late delivery
+132,454,2024-09-28,Size issue
+133,715,2024-11-23,Wrong item delivered
+134,477,2025-05-08,Quality not as expected
+135,471,2024-12-05,Didn’t like the product
+136,600,2025-06-16,Quality not as expected
+137,647,2025-06-12,Size issue
+138,236,2025-06-16,Size issue
+139,794,2025-06-17,Size issue
+140,973,2025-04-06,Wrong item delivered
+141,299,2025-01-10,Quality not as expected
+142,857,2025-06-30,Didn’t like the product
+143,262,2024-11-15,Didn’t like the product
+144,58,2024-10-03,Didn’t like the product
+145,165,2025-03-18,Late delivery
+146,759,2025-02-19,Quality not as expected
+147,697,2025-03-27,Quality not as expected
+148,56,2025-02-13,Size issue
+149,967,2025-06-24,Size issue
+150,29,2025-06-21,Wrong item delivered

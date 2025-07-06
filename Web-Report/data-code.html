@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data & Code | Manifest Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .card {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-download {
+            border-radius: 25px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 500;
+            padding-top: 20px;
+            letter-spacing: 1px;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .section-title:hover {
+            opacity: 0.9;
+            text-shadow: 0 1px 8px rgba(237, 76, 107, 0.3);
+        }
+
+        /* Navbar Spacing */
+        .navbar-nav .nav-link {
+            margin: 0 12px;
+            font-weight: 500;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+            position: relative;
+        }
+
+        /* Hover Effect */
+        .navbar-nav .nav-link:hover {
+            color: #ED4C6B;
+        }
+
+        /* Active Link Highlight */
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:focus {
+            color: #ED4C6B;
+            font-weight: 600;
+        }
+
+        /* Optional: underline-style hover */
+        .navbar-nav .nav-link::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #ED4C6B;
+            transition: width 0.3s;
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+        }
+
+        .navbar-nav .nav-link:hover::after,
+        .navbar-nav .nav-link.active::after {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold">
+                <img src="images/logo.png" alt="Manifest Logo" style="height: 50px;">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="insights.html">Insights</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboards.html">Dashboards</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="data-code.html">Data & Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">My Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section -->
+    <section class="section bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-5 section-title">📁 Project Data & Code</h2>
+            <div class="row justify-content-center g-4">
+                <!-- SQL -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-success">🗃️ SQL Files</h5>
+                            <p class="text-muted">Contains schema creation, customer/product/order tables, and all SQL
+                                queries for analysis.</p>
+                            <a href="downloads/sql_files.zip" download class="btn btn-outline-success btn-download btn-sm">
+                                Download SQL Files
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Python -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-primary">🐍 Python Notebook</h5>
+                            <p class="text-muted">Notebook with full analysis: cleaning, merging, trend charts,
+                                discount-return analysis, and export.</p>
+                            <a href="downloads/python_files.zip"
+                                class="btn btn-outline-primary btn-download btn-sm">Download Notebook</a>
+                            <a href="downloads/cleaned_data.csv"
+                                class="btn btn-outline-primary btn-download btn-sm ms-2">Cleaned CSV</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excel -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">📊 Excel Dashboard</h5>
+                            <p class="text-muted">Interactive Excel dashboard with KPIs, monthly trend, payment
+                                analysis, and slicers.</p>
+                            <a href="downloads/manifest_dashboard.xlsx"
+                                class="btn btn-outline-danger btn-download btn-sm">Download Excel File</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Power BI -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-warning">📈 Power BI Dashboard</h5>
+                            <p class="text-muted">Power BI file with regional map, filters, KPIs, customer segments, and
+                                visual insights.</p>
+                            <a href="downloads/manifest_powerbi.pbix"
+                                class="btn btn-outline-warning btn-download btn-sm">Download Power BI</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- All Downloads -->
+                <div class="col-md-10">
+                    <div class="card bg-dark text-white shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold">📦 Download All Files</h5>
+                            <p class="text-light">Get everything in one zip: SQL, Python, Excel, Power BI, images, and
+                                web code.</p>
+                            <a href="downloads/Project_files.zip"
+                                class="btn btn-light btn-sm btn-download">Download Full Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Manifest Project by Shweta Bhagat</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
